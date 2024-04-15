@@ -1,0 +1,6 @@
+sync:
+  services:
+    apigw-lambda-svc:
+      apigw-lambda-svc-prod:
+        branch: main
+        spec: dev-svc/service-sync.yaml
