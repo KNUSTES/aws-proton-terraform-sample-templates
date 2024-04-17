@@ -1,0 +1,4 @@
+proton: ServiceSpec
+instances:
+  - name: apigw-lambda-svc-prod
+    environment: vpc-env-prod
